@@ -116,7 +116,7 @@ mkdir -p /var/log/gitlab/sshd
 mkdir -p /var/log/gitlab/reconfigure
 
 cd /opt/gitlab/embedded/service/gitlab-rails/
-bundle add --git 'https://github.com/kevincaicedo/omniauth-keycloak.git' --branch 'master'
+bundle add 'omniauth-keycloak' --git 'https://github.com/kevincaicedo/omniauth-keycloak.git' --branch 'master'
 
 # Start service manager
 echo "Starting services..."
