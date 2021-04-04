@@ -1,0 +1,3 @@
+RELEASE_PACKAGE=gitlab-ce
+RELEASE_VERSION=13.2.0-ce
+DOWNLOAD_URL=https://packages.gitlab.com/gitlab/gitlab-ce/packages/ubuntu/focal/gitlab-ce_13.2.0-ce.0_amd64.deb/download.deb
